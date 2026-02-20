@@ -92,7 +92,7 @@ Grad-CAM is used to:
 
 ---
 
-🧪 Workflow Inside Notebook
+## 🧪 Workflow Inside Notebook
 
    Load RFMiD dataset
    Apply data augmentation
@@ -103,30 +103,30 @@ Grad-CAM is used to:
    Track AUROC performance
    Save best model to saved_models/
    Generate Grad-CAM visualizations
-
-⚠️ Limitations
+---
+## ⚠️ Limitations
 
    Class imbalance affects rare disease recall
    Lesion localization not quantitatively evaluated (IoU/Dice not measured)
    Requires further clinical validation before deployment
-
-🔮 Future Improvements
+---
+## 🔮 Future Improvements
 
   Focal Loss / Class-balanced Loss 
   Ensemble learning
   Quantitative localization metrics
   Convert notebook into modular production-ready code
   Clinical validation on diverse datasets
-
-📚 References
+---
+## 📚 References
 
 - Tan & Le — EfficientNet
 - Selvaraju et al. — Grad-CAM
 - RFMiD Dataset Paper
 - Deep Learning in Medical Imaging Surveys
 
-
-👨‍💻 Authors
+---
+## 👨‍💻 Authors
 Dharsan K
 P Keerthana
 Sachin Pradeep
