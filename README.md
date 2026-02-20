@@ -103,12 +103,14 @@ Grad-CAM is used to:
    Track AUROC performance
    Save best model to saved_models/
    Generate Grad-CAM visualizations
+   
 ---
 ## ⚠️ Limitations
 
    Class imbalance affects rare disease recall
    Lesion localization not quantitatively evaluated (IoU/Dice not measured)
    Requires further clinical validation before deployment
+   
 ---
 ## 🔮 Future Improvements
 
@@ -117,6 +119,7 @@ Grad-CAM is used to:
   Quantitative localization metrics
   Convert notebook into modular production-ready code
   Clinical validation on diverse datasets
+  
 ---
 ## 📚 References
 
